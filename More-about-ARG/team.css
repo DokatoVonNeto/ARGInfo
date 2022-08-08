@@ -1,0 +1,113 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    all:unset;
+}
+nav{
+font-size: medium;
+text-align: right;
+}
+nav img{
+position: absolute;
+left: 3px;
+top:3px;
+max-height: 90px;
+max-width: 91px;
+}
+nav ul {
+text-align: left;
+display: inline;
+margin: 0;
+padding: 15px 4px 17px 0;
+list-style: none;
+-webkit-box-shadow: 0 0 5px rgba(153, 0, 0, 0.15);
+box-shadow: 0 0 5px rgba(206, 12, 12, 0.925);
+}
+nav ul li {
+font: bold 12px/18px sans-serif;
+display: inline-block;
+margin-right: -4px;
+position: relative;
+padding: 15px 20px;
+background: rgb(50, 99, 206);
+cursor: pointer;
+}
+nav ul li:hover {
+background: rgb(19, 31, 211);
+color: #fff;
+}
+nav ul li ul {
+padding: 0;
+position: absolute;
+top: 48px;
+left: 0;
+width: 150px;
+-webkit-box-shadow: none;
+box-shadow: none;
+display: none;
+opacity: 0;
+visibility: hidden;
+}
+nav ul li ul li { 
+background: rgb(187, 14, 14); 
+display: block; 
+color: #fff;
+text-shadow: 0 -1px 0 #000;
+}
+nav ul li ul li:hover { 
+background: rgb(255, 0, 0); 
+}
+nav ul li:hover ul {
+display: block;
+opacity: 1;
+visibility: visible;
+}
+#boxes{
+
+    height: 800px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    padding:120px;
+    margin:20px;
+}
+#boxes div{
+border: solid 2px green;
+box-shadow: green 3px;
+}
+.people{
+    flex: center row;
+    flex-grow: 2;
+}
+.text{
+    overflow:scroll;
+    height:300px;
+    width:300px;
+    position: static;
+}
+#Rollin{
+    padding:20px;
+    margin:20px;
+}
+#Rollin img{
+    height: 200px;
+}
+#Rollin img:hover{
+    height: 600px;
+}
+#Olivia{ 
+    padding:20px;
+    margin:20px;
+}
+#Olivia img{
+    height: 200px;
+}
+#Augusta{
+    padding:20px;
+    margin:20px;
+}
