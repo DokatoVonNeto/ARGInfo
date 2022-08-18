@@ -1,6 +1,7 @@
 body{
     color: white;
     background-color: #000;
+    text-align: center;
 }
 a{
     all: unset;
@@ -63,4 +64,23 @@ nav ul li:hover ul {
  display: block;
  opacity: 1;
  visibility: visible;
+}
+.main{
+    margin-left: 100px;
+    margin-right:100px;
+}
+.important{
+    color:red !important;
+    font-weight: bold;
+    font-size: 32px;
+}
+.ciphers{
+    justify-content: center;
+    margin:auto;
+    display: inline-block;
+    padding: 15px 20px 15px 0px;
+    box-shadow: 0 0 5px green;
+}
+.hide{
+    display:none;
 }
